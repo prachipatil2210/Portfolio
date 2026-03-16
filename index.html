@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prachi - Developer Portfolio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(24, 10, 31);
+        color: white;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: #2e1638;
+        font-style: normal;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: #d6a6ea;
+        font-size: 1.01rem;
+      }
+      main hr {
+        border: 0;
+        background: #cd7fee;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+        font-style: normal;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+
+      .leftSection {
+        font-size: 2.5rem;
+      }
+      .leftSection .button{
+        padding: 50px 0;
+      }
+      .leftSection .btn{
+        padding: 12px;
+        background-color:  rgb(162, 96, 224);
+        color: white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .rightSection img {
+        width: 80%;
+      }
+      .purple {
+        color: rgb(162, 96, 224);
+      }
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: rgb(162, 96, 224);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+      .secondSection .box {
+        background: white;
+        width: 78vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 130px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-text {
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 20px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 17px;
+      }
+      footer {
+        margin-top: 100px;
+        background-color: rgb(30, 15, 38);
+        /* height: 233px; */
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer > div {
+        width: 220pxs;
+      }
+      footer .footer-right {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+        font-size: 19px;
+      }
+      .footer-second ul li {
+        margin: 23px 0;
+        font-size: 20px;
+        list-style: none;
+        cursor: pointer;
+      }
+      .footer-third ul li {
+        margin: 23px 0;
+        font-size: 20px;
+        list-style: none;
+        cursor: pointer;
+      }
+      .footer-second ul li:hover,
+      .footer-third ul li:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Prachi Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Skill</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Prachi</span>
+          <div>and I am a passionate</div>
+          <!-- <div>web devloper</div> -->
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="portfolio_img1.png" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">Skills I have developed</span>
+        <h1>Technical Skills</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="portfolio_imag_html3.png" alt="" />
+            <div class="vertical-text">HTML,CSS,Javascript Developer</div>
+            <div class="vertical-desc">
+              I have learned the fundamentals of HTML, CSS, and JavaScript to
+              build responsive and interactive web pages. I can design
+              structured layouts, style websites, and add dynamic behavior using
+              JavaScript.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="portfolio_img_react4.png" alt="" />
+            <div class="vertical-text">React-JS</div>
+            <div class="vertical-desc">
+              I use ReactJS to build modern and dynamic user interfaces. I have
+              learned component-based architecture, props, state management, and
+              creating responsive single-page applications.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="portfolio_img_java5.png" alt="" />
+            <div class="vertical-text">Java</div>
+            <div class="vertical-desc">
+              I use Java to build efficient programs and practice Data
+              Structures and Algorithms. I have experience with object-oriented
+              programming, problem solving, and implementing algorithms in Java.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="portfolio_img_python6.png" alt="" />
+            <div class="vertical-text">Pthyon</div>
+            <div class="vertical-desc">
+              I use Python for problem solving and building simple applications.
+              I have learned the fundamentals of Python including data
+              structures, functions, and writing clean and efficient code.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Prachi-Aspiring Data Scientist</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Skills</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Projects</li>
+            <li>Achievements</li>
+            <li>Contact me</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-right">&copy; Prachi patil | All Rights Reserved</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Data science"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
